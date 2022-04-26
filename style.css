@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+.container-fluid{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.heading{
+    margin: 20px;
+    font-size: larger;
+}
+.card{
+    box-shadow: 5px 3px 8px #e0d7d7;
+    
+}
+.card-image{
+    margin-left:180px;
+}
+.bottom{
+    margin-top: 180px;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+    
+}
+.bottom-head{
+    color: rgb(75, 11, 131);
+    font-style: bold;
+    margin-bottom: 50px;
+}
+.cards{
+    width:300px;
+    height: 200px;
+    border: 1px solid grey;
+    
+}
+.card-title{
+    margin: 20px;
+}
+.card-text{
+    margin: 0 20px 20px 20px;
+}
+span{
+    color: gray;
+}
+.bottom-link{
+
+    margin-top: 35px;
+
+    
+}
+a:link{
+    text-decoration: none;
+
+}
+.card-images{
+margin-left: 110px;
+
+}
+.card-imag{
+    margin-left: 200px;
+}
+.bg-image{
+    background-image: url(images/Mask\ Group\ 56.png);
+    height: 1000px;
+    position: absolute;
+    margin-left : 0 !important ;
+    
+    
+
+    
+}
+.card:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
